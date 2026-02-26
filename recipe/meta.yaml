@@ -1,7 +1,7 @@
 {% set name = "aiidalab" %}
-{% set version = "24.9.0" %}
+{% set version = "26.2.0" %}
 {% set python_min = "3.9" %}
-{% set sha256 = "06611f59b06716e598216b14a325542b2e6471230c520e2e512f0e1541e451d8" %}
+{% set sha256 = "146b2c5b779bf52bced1f9c952e70d35871b91176ee2ec59220d6db7a6a503ef" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
     - aiidalab = aiidalab.__main__:cli
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
