@@ -144,6 +144,6 @@ Feedstock Maintainers
 =====================
 
 * [@danielhollas](https://github.com/danielhollas/)
-* [@unkcpz](https://github.com/unkcpz/)
+* [@edan-bainglass](https://github.com/edan-bainglass/)
 * [@yakutovicha](https://github.com/yakutovicha/)
 
